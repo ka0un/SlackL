@@ -8,42 +8,41 @@ SlackL is a Slack bot that provides DeepL translations for messages in Slack. Th
 <table>
 <tr>
   <td width="50%">
-    <h3 align="center">Feature 1: Smart Search</h3>
+    <h3 align="center">Translate Slash Command</h3>
     <p align="center">
-      <img src="https://github.com/ka0un/SlackL/blob/main/images/SlackLDoc1.gif?raw=true" alt="Slash Commands" width="400">
+      <img src="https://github.com/ka0un/SlackL/blob/main/images/SlackLDoc2.gif?raw=true" alt="Slash Commands" width="400">
     </p>
     <p align="center">
-      Intelligent search functionality with auto-complete and filters. Helps users quickly find exactly what they're looking for with real-time suggestions and advanced filtering options.
+       Quickly translate any text from the Slack UI using the /translate command
     </p>
   </td>
   <td width="50%">
-    <h3 align="center">Feature 2: Analytics Dashboard</h3>
+    <h3 align="center">Translate Message Shortcut</h3>
     <p align="center">
-      <img src="https://github.com/ka0un/SlackL/blob/main/images/SlackLDoc2.gif?raw=true
-" alt="Analytics Dashboard" width="400">
+      <img src="https://github.com/ka0un/SlackL/blob/main/images/SlackLDoc1.gif?raw=true" alt="Translate Message" width="400">
     </p>
     <p align="center">
-      Comprehensive analytics dashboard with interactive charts and customizable reports. Monitor key metrics and track performance in real-time.
+      translate any old or newly received messages by pressing the ... (more actions) button on a message and selecting the "Translate Message" option.
     </p>
   </td>
 </tr>
 <tr>
   <td width="50%">
-    <h3 align="center">Feature 3: Team Collaboration</h3>
+    <h3 align="center">Automatic Message Translations</h3>
     <p align="center">
-      <img src="https://github.com/ka0un/SlackL/blob/main/images/SlackLDoc3.gif?raw=true" alt="Team Collaboration" width="400">
+      <img src="https://github.com/ka0un/SlackL/blob/main/images/SlackLDoc3.gif?raw=true" alt="Automatic Message Translations" width="400">
     </p>
     <p align="center">
-      Built-in collaboration tools for seamless teamwork. Share projects, leave comments, and work together in real-time with your team members.
+      Automatic Message Translations for Specific Channels feature allows users to configure automatic translations for specific channels using commands. This feature is customizable, enabling users to set up and manage translation settings according to their preferences.
     </p>
   </td>
   <td width="50%">
-    <h3 align="center">Feature 4: Cloud Integration</h3>
+    <h3 align="center">Translation Caching</h3>
     <p align="center">
-      <img src="https://github.com/ka0un/SlackL/blob/main/images/SlackLDoc4.png?raw=true" alt="Cloud Integration" width="400">
+      <img src="https://github.com/ka0un/SlackL/blob/main/images/SlackLDoc4.png?raw=true" alt="Translation Caching" width="400">
     </p>
     <p align="center">
-      Seamless cloud integration with popular services. Automatically sync and backup your data across multiple platforms and devices.
+      The Translation Caching feature stores previously translated messages to improve performance and reduce redundant translations.
     </p>
   </td>
 </tr>
