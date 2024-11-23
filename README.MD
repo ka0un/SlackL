@@ -3,7 +3,7 @@
 ## Overview
 SlackL is a Slack bot that provides DeepL translations for messages in Slack. This guide will help you configure and deploy the Slack bot.
 
-# Project Features
+## Features
 
 <table>
 <tr>
