@@ -3,6 +3,51 @@
 ## Overview
 SlackL is a Slack bot that provides DeepL translations for messages in Slack. This guide will help you configure and deploy the Slack bot.
 
+# Project Features
+
+<table>
+<tr>
+  <td width="50%">
+    <h3 align="center">Feature 1: Smart Search</h3>
+    <p align="center">
+      <img src="/api/placeholder/400/300" alt="Smart Search Feature" width="400">
+    </p>
+    <p align="center">
+      Intelligent search functionality with auto-complete and filters. Helps users quickly find exactly what they're looking for with real-time suggestions and advanced filtering options.
+    </p>
+  </td>
+  <td width="50%">
+    <h3 align="center">Feature 2: Analytics Dashboard</h3>
+    <p align="center">
+      <img src="/api/placeholder/400/300" alt="Analytics Dashboard" width="400">
+    </p>
+    <p align="center">
+      Comprehensive analytics dashboard with interactive charts and customizable reports. Monitor key metrics and track performance in real-time.
+    </p>
+  </td>
+</tr>
+<tr>
+  <td width="50%">
+    <h3 align="center">Feature 3: Team Collaboration</h3>
+    <p align="center">
+      <img src="/api/placeholder/400/300" alt="Team Collaboration" width="400">
+    </p>
+    <p align="center">
+      Built-in collaboration tools for seamless teamwork. Share projects, leave comments, and work together in real-time with your team members.
+    </p>
+  </td>
+  <td width="50%">
+    <h3 align="center">Feature 4: Cloud Integration</h3>
+    <p align="center">
+      <img src="/api/placeholder/400/300" alt="Cloud Integration" width="400">
+    </p>
+    <p align="center">
+      Seamless cloud integration with popular services. Automatically sync and backup your data across multiple platforms and devices.
+    </p>
+  </td>
+</tr>
+</table>
+
 ## Prerequisites
 - Java 17
 - Maven
@@ -66,7 +111,7 @@ public interface Constants {
 5. Save the changes.
 
 Your Slack bot should now be up and running with the correct URLs. You can test it by using the configured slash commands in your Slack workspace.
-```
+
 
 ### Updated `manifest.json`
 
