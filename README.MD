@@ -1,5 +1,6 @@
-# SlackL - DeepL Translations for Slack
+![SlackL Cover Image](https://github.com/ka0un/SlackL/blob/main/cover.png?raw=true)
 
+# SlackL - DeepL Translations for Slack
 ## Overview
 SlackL is a Slack bot that provides DeepL translations for messages in Slack.
 
