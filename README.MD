@@ -37,16 +37,18 @@ SlackL is a Slack bot that provides DeepL translations for messages in Slack.
     </p>
   </td>
   <td width="50%">
-    <h3 align="center">Translation Caching</h3>
-    <p align="center">
-      <img src="https://github.com/ka0un/SlackL/blob/main/images/SlackLDoc4.png?raw=true" alt="Translation Caching" width="400">
+    <h3 align="center">Free and OpenSource</h3>
+   <p align="center">
+      <img src="https://th.bing.com/th/id/R.e56ab0c3971143aaa96f00fc5d39c15c?rik=1TQSbEpTw0mmbw&pid=ImgRaw&r=0" alt="Automatic Message Translations" width="400">
     </p>
     <p align="center">
-      The Translation Caching feature stores previously translated messages to improve performance and reduce redundant translations.
+      SlackL is a free, open-source, and customizable self-hosted solution. By hosting it on your own infrastructure, you maintain complete control over the implementation.
     </p>
   </td>
 </tr>
 </table>
+
+Developed at [SoftSora](https://softsora.com) 💖
 
 ## Prerequisites
 - Java 17
@@ -111,7 +113,6 @@ public interface Constants {
 5. Save the changes.
 
 Your Slack bot should now be up and running with the correct URLs. You can test it by using the configured slash commands in your Slack workspace.
-
 
 ### Updated `manifest.json`
 

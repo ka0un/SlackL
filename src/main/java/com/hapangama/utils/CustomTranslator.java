@@ -5,18 +5,9 @@ import com.deepl.api.Translator;
 
 public class CustomTranslator {
     static Translator translator;
-    static TranslationCache cache = new TranslationCache();
 
     public static String translate(String text, String sourceLang, String targetLang, boolean includeOriginal) {
-        String inputHash = TranslationCache.generateHash(text, targetLang);
-        String cachedTranslation = cache.get(inputHash);
-
-        if (cachedTranslation != null) {
-            System.out.println("[Translation Service] [🍀] Providing cached translation for: " + inputHash);
-            return includeOriginal ? text + "\n\n" + cachedTranslation : cachedTranslation;
-        }
-
-        System.out.println("[Translation Service] [⚙️] Translating: " + inputHash);
+        System.out.println("[Translation Service] [⚙️] Translating.... " );
 
         String translatedText;
         String apiKey = System.getProperty("DEEPL_API_KEY");
@@ -32,7 +23,6 @@ public class CustomTranslator {
             throw new RuntimeException(e);
         }
 
-        cache.put(inputHash, translatedText);
         return includeOriginal ? text + "\n\n" + translatedText : translatedText;
     }
 }
