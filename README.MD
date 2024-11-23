@@ -66,7 +66,7 @@ public interface Constants {
 5. Save the changes.
 
 Your Slack bot should now be up and running with the correct URLs. You can test it by using the configured slash commands in your Slack workspace.
-```
+
 
 ### Updated `manifest.json`
 
